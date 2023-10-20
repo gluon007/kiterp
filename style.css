@@ -1,0 +1,79 @@
+body {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.green-button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    height: 50%;
+    width: 70%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-button:hover {
+    background-color: #45A049; /* Darker green on hover */
+}
+
+.line{
+    width: 80%;
+}
+
+.line ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav {
+    background-color: #1caf23; /* Background color */
+    width: 100%;
+}
+
+nav ul {
+    display: flex; /* Display items horizontally */
+    justify-content: space-around; /* Evenly space items */
+    padding: 10px 0; /* Add some padding */
+}
+
+nav li {
+    display: inline; /* Display items inline */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Add padding around text */
+}
+
+/* Change link color on hover */
+nav a:hover {
+    background-color: #4d97606c;
+}
+
+ul{
+    list-style: none;
+}
